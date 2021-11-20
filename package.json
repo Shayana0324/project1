@@ -1,0 +1,18 @@
+{
+  "name": "sajilokitab",
+  "version": "1.0.0",
+  "description": "this is an application to buy or rent book from a private party of any third party in our network. We facilitate handing over of used books.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node ./index.js",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node ./index.js"
+  },
+  "author": "Shayana Shrestha",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
